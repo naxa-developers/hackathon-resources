@@ -16,4 +16,19 @@ POSTGRES_USER=osmuser
 POSTGRES_PASSWORD=hotosmhackathon
 ```
 
-osm2pgsql --create -H localhost -U postgres -P 5432 -d hackathon -W --extra-attributes --output=flex --style raw.lua coulibistrie_dominica.osm.pbf
+#### tables
+islington_aoi
+islington_lines
+islington_polygons
+
+butembo_aoi
+butembo_lines
+butembo_polygons
+
+coulibistrie_aoi
+coulibistrie_lines
+coulibistrie_polygons
+
+shyira_aoi
+shyira_lines
+shyira_polygons
